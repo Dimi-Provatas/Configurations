@@ -25,6 +25,11 @@ opt.cursorline = true
 opt.termguicolors = true
 opt.background = "dark"
 opt.signcolumn = "yes"
+opt.list = true
+opt.listchars = {
+  trail = '·',
+}
+vim.api.nvim_create_autocmd('BufWritePre', {command = '%s/\\s\\+$//e'})
 
 -- backspace
 opt.backspace = "indent,eol,start"

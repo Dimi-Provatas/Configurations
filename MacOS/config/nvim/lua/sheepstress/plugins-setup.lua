@@ -28,6 +28,7 @@ return packer.startup(function(use)
 
   -- many lua functions for plugins
   use ("nvim-lua/plenary.nvim")
+  use ("nvim-lua/popup.nvim")
 
   -- theme
   use("nanotech/jellybeans.vim")
@@ -49,9 +50,10 @@ return packer.startup(function(use)
   -- status line
   use("nvim-lualine/lualine.nvim")
 
-  -- fuzzy finder
+  -- telescope
   use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" })
   use({ "nvim-telescope/telescope.nvim", branch = "0.1.x" })
+  use("nvim-telescope/telescope-media-files.nvim")
 
   -- autocompletion
   use("hrsh7th/nvim-cmp")
@@ -91,8 +93,15 @@ return packer.startup(function(use)
   use("windwp/nvim-autopairs")
   use("windwp/nvim-ts-autotag")
 
-  -- git signs
+  -- git
   use("lewis6991/gitsigns.nvim")
+  use("dinhhuy258/git.nvim")
+
+  -- bufferline
+  use("akinsho/nvim-bufferline.lua")
+
+  -- indent line
+  use("lukas-reineke/indent-blankline.nvim")
 
   if packer_bootstrap then
     require("packer").sync()
