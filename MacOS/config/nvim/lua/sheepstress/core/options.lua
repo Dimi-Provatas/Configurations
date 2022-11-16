@@ -11,7 +11,7 @@ opt.expandtab = true
 opt.autoindent = true
 
 -- line wrap
-opt.wrap = false
+-- opt.wrap = false
 opt.whichwrap = "<,>,[,],h,l"
 
 -- search

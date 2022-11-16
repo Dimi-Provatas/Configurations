@@ -26,7 +26,6 @@ mason_lspconfig.setup({
     "cmake",
     "cssls",
     "cssmodules_ls",
-    "denols",
     "dockerls",
     "dotls",
     "eslint",

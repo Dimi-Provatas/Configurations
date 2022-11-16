@@ -103,6 +103,9 @@ return packer.startup(function(use)
   -- indent line
   use("lukas-reineke/indent-blankline.nvim")
 
+  -- impatient
+  use("lewis6991/impatient.nvim")
+
   if packer_bootstrap then
     require("packer").sync()
   end

@@ -90,11 +90,6 @@ lspconfig["cssmodules_ls"].setup({
   on_attach = on_attach,
 })
 
-lspconfig["denols"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
-
 lspconfig["dockerls"].setup({
   capabilities = capabilities,
   on_attach = on_attach,

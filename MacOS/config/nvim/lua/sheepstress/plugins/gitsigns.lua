@@ -3,4 +3,6 @@ if not setup then
   return
 end
 
-gitsigns.setup()
+gitsigns.setup({
+
+})
