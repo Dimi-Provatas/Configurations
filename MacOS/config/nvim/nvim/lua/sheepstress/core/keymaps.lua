@@ -32,8 +32,9 @@ keymap.set("n", "<C-u>", "<C-u>zz")
 keymap.set("x", "<leader>p", "\"_dP")
 
 keymap.set("n", "Q", "<nop>")
+keymap.set("n", "<F1>", "<nop>")
 
-keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+keymap.set("n", "<leader>i", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 -- plugin keymaps
 

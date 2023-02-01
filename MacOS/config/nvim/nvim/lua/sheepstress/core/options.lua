@@ -34,7 +34,7 @@ opt.hlsearch = true
 opt.incsearch = true
 
 -- format
-vim.cmd [[autocmd BufWritePre * lua vim.lsp.buf.formatting_sync()]]
+vim.cmd [[autocmd BufWritePre * lua vim.lsp.buf.format()]]
 opt.scrolloff = 8
 
 -- cursor
@@ -49,7 +49,7 @@ opt.listchars = {
     trail = '·',
 }
 vim.api.nvim_create_autocmd('BufWritePre', { command = '%s/\\s\\+$//e' })
-opt.foldmethod = "indent"
+-- opt.foldmethod = "indent"
 
 -- backspace
 opt.backspace = "indent,eol,start"

@@ -251,6 +251,11 @@ _G.packer_plugins = {
     path = "/Users/sheepstress/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
+  ["prettier.nvim"] = {
+    loaded = true,
+    path = "/Users/sheepstress/.local/share/nvim/site/pack/packer/start/prettier.nvim",
+    url = "https://github.com/MunifTanjim/prettier.nvim"
+  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/Users/sheepstress/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
