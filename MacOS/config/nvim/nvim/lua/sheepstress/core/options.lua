@@ -8,6 +8,8 @@ opt.wildignore:append({
     "vendor",
     "target",
     "dist",
+    "*.meta",
+    "*.unity",
 })
 
 -- line numbers
