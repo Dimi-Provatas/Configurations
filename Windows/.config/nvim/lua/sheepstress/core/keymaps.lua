@@ -12,15 +12,29 @@ keymap.set("n", "x", '"_x')
 keymap.set("n", "<leader>+", "<C-a>")
 keymap.set("n", "<leader>-", "<C-x>")
 
-keymap.set("n", "<leader>sv", "<C-w>v")     -- split vertically
-keymap.set("n", "<leader>sh", "<C-w>s")     -- split horizontally
-keymap.set("n", "<leader>se", "<C-w>=")     -- make split equal width
+keymap.set("n", "<leader>sv", "<C-w>v") -- split vertically
+keymap.set("n", "<leader>sh", "<C-w>s") -- split horizontally
+keymap.set("n", "<leader>se", "<C-w>=") -- make split equal width
 keymap.set("n", "<leader>sx", ":close<CR>") -- close current split
 
-keymap.set("n", "<leader>to", ":tabnew<CR>")    -- open new tab
-keymap.set("n", "<leader>tx", ":tabclose<CR>")  -- close current tab
-keymap.set("n", "<leader>tn", ":tabn<CR>")      -- go to next tab
-keymap.set("n", "<leader>tp", ":tabp<CR>")      -- go to prev tab
+keymap.set("n", "<leader>to", ":tabnew<CR>") -- open new tab
+keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
+keymap.set("n", "<leader>tn", ":tabn<CR>") -- go to next tab
+keymap.set("n", "<leader>tp", ":tabp<CR>") -- go to prev tab
+
+keymap.set("v", "J", ":m '>+1<CR>gv=gv") -- move selection up in visual mode
+keymap.set("v", "K", ":m '<-2<CR>gv=gv") -- move selection down in visual mode
+
+keymap.set("n", "J", "mzJ`z")
+keymap.set("n", "<C-d>", "<C-d>zz")
+keymap.set("n", "<C-u>", "<C-u>zz")
+
+keymap.set("x", "<leader>p", "\"_dP")
+
+keymap.set("n", "Q", "<nop>")
+keymap.set("n", "<F1>", "<nop>")
+
+keymap.set("n", "<leader>i", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 -- plugin keymaps
 
@@ -37,3 +51,6 @@ keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<CR>")
 keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<CR>")
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<CR>")
 keymap.set("n", "<leader>fa", "<cmd>Telescope find_files hidden=true no_ignore=true<CR>")
+
+-- markdown-preview
+keymap.set("n", "<leader>mp", "<cmd>MarkdownPreviewToggle<CR>")
