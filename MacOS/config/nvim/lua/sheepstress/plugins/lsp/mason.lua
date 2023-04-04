@@ -36,7 +36,6 @@ mason_lspconfig.setup({
     "quick_lint_js",
     "tsserver",
     "ltex",
-    "sumneko_lua",
     "marksman",
     "intelephense",
     "pylsp",
