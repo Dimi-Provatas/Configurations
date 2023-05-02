@@ -1,0 +1,13 @@
+[/home/thesheepster/.local/share/Trash]
+Days=30
+LimitReachedAction=0
+Percent=2.5
+UseSizeLimit=true
+UseTimeLimit=true
+
+[/mnt/nvme1/.Trash-1000]
+Days=30
+LimitReachedAction=0
+Percent=1.1
+UseSizeLimit=true
+UseTimeLimit=true

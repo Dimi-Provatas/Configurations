@@ -1,0 +1,12 @@
+# Window Decortations
+client.focused          $foreground $foreground $titlefocused   $foreground $foreground
+client.focused_inactive $background $background $titleunfocused $background $background
+client.unfocused        $background $background $titleunfocused $background $background
+client.urgent           $background $background $titleunfocused $background $background
+
+# Titlebar
+for_window                  [title="."] title_format "%title"
+titlebar_border_thickness   0
+titlebar_padding            $titlepad   $titlepad
+title_align                 center
+

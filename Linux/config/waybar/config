@@ -1,0 +1,190 @@
+{
+    "layer": "top",
+    "position": "top",
+    "modules-left": [
+        "sway/mode",
+        "sway/workspaces",
+        "custom/arrow10",
+        "sway/window"
+    ],
+    "modules-center": [
+    ],
+    "modules-right": [
+        "custom/arrow8",
+        "network",
+        "custom/arrow9",
+        "pulseaudio",
+        "backlight",
+        "custom/arrow7",
+        "memory",
+        "custom/arrow6",
+        "cpu",
+        "custom/arrow5",
+        "temperature",
+        "custom/arrow4",
+        "battery",
+        "custom/arrow3",
+        "sway/language",
+        "custom/arrow2",
+        "tray",
+        "custom/arrow1",
+        "clock#date",
+        "clock#time"
+    ],
+    // Modules
+    "battery": {
+        "interval": 10,
+        "states": {
+            "warning": 20,
+            "critical": 10
+        },
+        "format-time": "{H}:{M:02}",
+        "format": "{icon} {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-charging": " {capacity}%  ({time})",
+        "format-charging-full": " {capacity}%",
+        "format-full": "{icon} {capacity}%",
+        "format-alt": "{icon} {power}W",
+        "format-icons": [
+            "  ",
+            "  ",
+            "  ",
+            "  ",
+            "  "
+        ],
+        "tooltip": false
+    },
+    "clock#time": {
+        "interval": 1,
+        "format": "{:%H:%M:%S}",
+        "tooltip": false
+    },
+    "clock#date": {
+        "interval": 20,
+        "format": "{:%Y/%m/%d}",
+        "tooltip": false
+    },
+    "cpu": {
+        "interval": 1,
+        "tooltip": false,
+        "format": "   {usage}%",
+        "states": {
+            "warning": 80,
+            "critical": 90
+        },
+        "min-length": 6
+    },
+    "sway/language": {
+        "format": "   {}",
+        "min-length": 5,
+        "on-click": "swaymsg 'input * xkb_switch_layout next'",
+        "tooltip": false
+    },
+    "memory": {
+        "interval": 1,
+        "format": "  {used:0.1f}G/{total:0.1f}G",
+        "states": {
+            "warning": 70,
+            "critical": 90
+        },
+        "tooltip": false
+    },
+    "network": {
+        "interval": 1,
+        "format-wifi": "   {signalStrength}% {bandwidthDownBytes}↓ | {bandwidthUpBytes}↑",
+        "format-ethernet": "  {bandwidthDownBytes}↓ | {bandwidthUpBytes}↑",
+        "format-disconnected": "✕ No connection",
+        "tooltip": false,
+        "on-click": "NetworkManagerWaybar",
+        "min-length": 30
+    },
+    "sway/mode": {
+        "format": "{}"
+    },
+    "sway/window": {
+        "format": " {} ",
+        "tooltip": false
+    },
+    "sway/workspaces": {
+        "disable-scroll-wraparound": true,
+        "smooth-scrolling-threshold": 4,
+        "enable-bar-scroll": true,
+        "format": "{name}"
+    },
+    "pulseaudio": {
+        "format": "{icon}  {volume}%",
+        "format-bluetooth": "{icon}   {volume}%",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "default": [
+                "",
+                ""
+            ]
+        },
+        "scroll-step": 1,
+        "tooltip": false,
+        "on-click": "alacritty -e '/home/thesheepster/scripts/PulseMixerWaybar'"
+    },
+    "backlight": {
+        "format": "💡 {percent}%"
+    },
+    "temperature": {
+        "hwmon-path": "/sys/class/hwmon/hwmon4/temp1_input",
+        "critical-threshold": 90,
+        "interval": 1,
+        "format": "{icon}  {temperatureC}°C",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "tooltip": false
+    },
+    "tray": {
+        "icon-size": 16,
+        "spacing": 3
+    },
+    "custom/arrow1": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/arrow2": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/arrow3": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/arrow4": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/arrow5": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/arrow6": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/arrow7": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/arrow8": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/arrow9": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/arrow10": {
+        "format": "",
+        "tooltip": false
+    }
+}

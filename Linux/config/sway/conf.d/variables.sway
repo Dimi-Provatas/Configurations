@@ -1,0 +1,32 @@
+### Variables
+set
+{
+    # Logo key. Use Mod1 for Alt, Mod4 for Super
+    $mod            Mod1
+
+    # Home row direction keys, like vim
+    $left           h
+    $down           j
+    $up             k
+    $right          l
+
+    # Your preferred terminal emulator
+    $term           alacritty
+
+    # Your preferred application launcher
+    # Note: pass the final command to swaymsg so that the resulting window can be opened on the original workspace that the command was run on.
+    $menu           wofi --show=drun
+    $alt_menu       wofi --show=run --always_parse_args=true
+
+    # Colors
+    $foreground     #802be2
+    $background     #1d1fb7
+    $titlefocused   #111111
+    $titleunfocused #ebdbb1
+
+    # Windows
+    $titlepad       1
+    $border         2
+    $gaps           5
+}
+

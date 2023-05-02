@@ -1,0 +1,33 @@
+fallback = ''
+
+[matching]
+# Default Config: https://github.com/Lyr-7D1h/swayest_workstyle#default-config
+'/War Thunder \(Vulkan, 64bit\)/' = '🛩'
+'/(C|c)aprine/' = ''                   # Messenger for Linux
+'/(M|m)essenger/' = ''                 # Messenger for Linux
+'/(M|m)essage/' = ''                   # Messenger for Linux
+'/trash/' = ''
+'/Dolphin/' = ''
+'/imv/' = ''
+'/git/' = ''
+'discord' = ''
+'balena-etcher' = ''
+'/Steam/' = ''
+'/Friends List/' = ''
+'/(T|t)hunderbird/' = ''
+'Insomnia' = ''
+'Google-chrome' = ''
+'Chromium' = ''
+'Slack' = ''
+'Code' = ''
+'code-oss' = ''
+'Spotify' = ''
+'/(?i)Github/' = ''
+'firefox' = ''
+'Nightly' = ''
+'firefoxdeveloperedition' = ''
+'/nvim ?\w*/' = ''
+'/npm/' = ''
+'/node/' = ''
+'/yarn/' = ''
+'Alacritty' = ''

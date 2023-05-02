@@ -1,0 +1,23 @@
+[Added Associations]
+application/pdf=firefox.desktop;
+image/jpeg=imv-dir.desktop;
+image/png=imv-dir.desktop;
+image/x-portable-pixmap=imv-2.desktop;
+image/x-xcf=gimp.desktop;
+text/javascript=featherpad.desktop;
+text/plain=featherpad.desktop;
+text/x-csharp=featherpad.desktop;
+text/x-csrc=featherpad.desktop;
+text/x-python=nvim.desktop;
+
+[Default Applications]
+application/pdf=firefox.desktop
+image/jpeg=imv-dir.desktop
+image/png=imv-dir.desktop
+image/x-portable-pixmap=imv-2.desktop;
+image/x-xcf=gimp.desktop;
+text/javascript=featherpad.desktop
+text/plain=featherpad.desktop
+text/x-csharp=featherpad.desktop
+text/x-csrc=featherpad.desktop
+text/x-python=nvim.desktop

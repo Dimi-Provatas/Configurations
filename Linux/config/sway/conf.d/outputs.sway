@@ -1,0 +1,18 @@
+### Output configuration
+
+# You can get the names of your outputs by running: swaymsg -t get_outputs
+output DP-1     position 320,0    resolution 1920x1080
+output HDMI-A-1 position 0,1080   resolution 2560x1080
+
+# Laptop Monitor
+output eDP-1    position 320,2160 resolution 1920x1080
+
+# On = Lid is closed; Off = Lid is open
+bindswitch --reload --locked lid:on  output eDP-1 disable
+bindswitch --reload --locked lid:off output eDP-1 enable
+
+# Wallpapers
+output 'HDMI-A-1' bg '~/Backgrounds/Arch_UW.jpg' fill #282828
+output 'DP-1'     bg '~/Backgrounds/Arch.jpg'    fill #282828
+output 'eDP-1'    bg '~/Backgrounds/Arch.jpg'    fill #282828
+

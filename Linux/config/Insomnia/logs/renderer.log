@@ -1,0 +1,102 @@
+[2023-03-30 12:41:04.680] [info]  [db] Initialized DB client
+[2023-03-30 12:41:04.768] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2023-03-30 12:41:04.770] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2023-03-30 12:41:04.995] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2023-03-30 12:41:05.102] [info]  {}
+[2023-03-30 12:41:05.196] [info]  [FileSystemDriver] Initialized in "/home/thesheepster/.config/Insomnia/version-control"
+[2023-03-30 12:41:05.197] [info]  [sync] checking for collections which need to be moved into a remote project
+[2023-03-30 12:41:05.200] [info]  [FileSystemDriver] Initialized in "/home/thesheepster/.config/Insomnia/version-control"
+[2023-03-30 12:41:05.233] [warn]  An aria-label or aria-labelledby prop is required for accessibility.
+[2023-03-30 12:41:05.238] [warn]  An aria-label or aria-labelledby prop is required for accessibility.
+[2023-03-30 12:41:05.286] [info]  {
+  workspaceData: {
+    activeWorkspace: {
+      _id: 'wrk_474f65a76d964057bb74c7f7f5670eb8',
+      type: 'Workspace',
+      parentId: 'proj_default-project',
+      modified: 1680172865085,
+      created: 1680172865085,
+      name: 'New Document',
+      description: '',
+      scope: 'design'
+    },
+    activeProject: {
+      _id: 'proj_default-project',
+      type: 'Project',
+      parentId: null,
+      modified: 1680172864731,
+      created: 1680172864731,
+      name: 'Insomnia',
+      remoteId: null
+    },
+    gitRepository: null,
+    activeWorkspaceMeta: {
+      _id: 'wrkm_829a5ac0781c460db0c6ac49ea19ff77',
+      type: 'WorkspaceMeta',
+      parentId: 'wrk_474f65a76d964057bb74c7f7f5670eb8',
+      modified: 1680172865093,
+      created: 1680172865090,
+      activeActivity: 'debug',
+      activeEnvironmentId: null,
+      activeRequestId: 'req_75a7420bffa94369a0bb92ec7abbc555',
+      activeUnitTestSuiteId: 'uts_2874c611e3b542e7a15af72881871dde',
+      cachedGitLastAuthor: null,
+      cachedGitLastCommitTime: null,
+      cachedGitRepositoryBranch: null,
+      gitRepositoryId: null,
+      hasSeen: true,
+      paneHeight: 0.5,
+      paneWidth: 0.5,
+      sidebarFilter: '',
+      sidebarHidden: false,
+      sidebarWidth: 19,
+      pushSnapshotOnInitialize: false
+    }
+  }
+}
+[2023-03-30 12:41:05.798] [info]  {
+  workspaceData: {
+    activeWorkspace: {
+      _id: 'wrk_474f65a76d964057bb74c7f7f5670eb8',
+      type: 'Workspace',
+      parentId: 'proj_default-project',
+      modified: 1680172865085,
+      created: 1680172865085,
+      name: 'New Document',
+      description: '',
+      scope: 'design'
+    },
+    activeProject: {
+      _id: 'proj_default-project',
+      type: 'Project',
+      parentId: null,
+      modified: 1680172864731,
+      created: 1680172864731,
+      name: 'Insomnia',
+      remoteId: null
+    },
+    gitRepository: null,
+    activeWorkspaceMeta: {
+      _id: 'wrkm_829a5ac0781c460db0c6ac49ea19ff77',
+      type: 'WorkspaceMeta',
+      parentId: 'wrk_474f65a76d964057bb74c7f7f5670eb8',
+      modified: 1680172865093,
+      created: 1680172865090,
+      activeActivity: 'debug',
+      activeEnvironmentId: null,
+      activeRequestId: 'req_75a7420bffa94369a0bb92ec7abbc555',
+      activeUnitTestSuiteId: 'uts_2874c611e3b542e7a15af72881871dde',
+      cachedGitLastAuthor: null,
+      cachedGitLastCommitTime: null,
+      cachedGitRepositoryBranch: null,
+      gitRepositoryId: null,
+      hasSeen: true,
+      paneHeight: 0.5,
+      paneWidth: 0.5,
+      sidebarFilter: '',
+      sidebarHidden: false,
+      sidebarWidth: 19,
+      pushSnapshotOnInitialize: false
+    }
+  }
+}
