@@ -18,6 +18,8 @@ for_window [title="MuseScore: Play Panel"]              floating enable
 for_window [title="pulsemixer"]                         floating enable, sticky enable, resize set height 400, move position cursor, move down 35
 for_window [title="(?:Open|Save) (?:File|Folder|As)"]   floating enable, resize set 800 600
 for_window [title="(?:Moving)"]                         floating enable
+for_window [title="^([\w\d\_\.\\\/])*\.(?:zip|7z)"]     floating enable
+for_window [title="Rename..."]                          floating enable
 
 for_window [window_role="About"]                        floating enable
 for_window [window_role="bubble"]                       floating enable

@@ -1,0 +1,5 @@
+bindgesture
+{
+    swipe:right workspace prev
+    swipe:left  workspace next
+}

@@ -1,0 +1,5 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "workbench.enableExperiments": false,
+    "update.showReleaseNotes": false
+}

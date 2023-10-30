@@ -1,0 +1,7 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "workbench.enableExperiments": false,
+    "update.showReleaseNotes": false,
+    "editor.fontSize": 12,
+    "editor.fontFamily": "MesloLGS Regular"
+}

@@ -8,6 +8,7 @@ include conf.d/variables.sway
 include conf.d/outputs.sway
 include conf.d/inputs.sway
 include conf.d/binds.sway
+include conf.d/gestures.sway
 include conf.d/colors.sway
 include conf.d/windows.sway
 include conf.d/autostart.sway

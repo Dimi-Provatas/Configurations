@@ -149,6 +149,16 @@ open ()
     dolphin $1 &
 }
 
+copy_file ()
+{
+    cat $1 | wl-copy
+}
+
+history_find ()
+{
+    cat ~/.zsh_history | grep "$1"
+}
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -173,8 +183,14 @@ alias ls="ls --color=auto --group-directories-first"
 alias ll="ls -alh"
 alias cl="clear; ll"
 alias ct="clear; tree"
+alias cn="clear; neofetch"
 
 alias fck="fuck"
+alias update="yay -Syuy"
+alias install-pkg="yay -S"
+
+alias getip="curl https://ipv4.icanhazip.com"
+alias traceip="getip | xargs traceroute"
 
 # Development aliases
 

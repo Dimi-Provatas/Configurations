@@ -1,2 +1,0 @@
-[binds]
-<Delete> = exec kioclient5 move "${imv_current_file}" trash:/; exec imv-msg $imv_pid next 1
