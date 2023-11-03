@@ -1,0 +1,15 @@
+#!/usr/bin/zsh
+
+main() {
+    choice=$(wl-clipboard-history -l 100 | \
+        cut -d ',' -f 2- | \
+        wofi --show=dmenu -i -l 20 -p 'Clipboard History (last 100 entries): ') || exit 1
+
+    if [ "$choice" ]; then
+        wl-copy "$choice"
+    else
+        exit 0
+    fi
+}
+
+main

@@ -1,0 +1,7 @@
+#!/usr/bin/zsh
+
+if [ $(pgrep "pulsemixer") -gt 0 ]; then
+    killall pulsemixer
+else
+    pulsemixer
+fi
