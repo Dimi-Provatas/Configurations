@@ -1,0 +1,6 @@
+#!/usr/bin/zsh
+
+autoload -Uz zmv
+
+i=1
+zmv '9Cloud.us_[0-9][0-9][0-9][0-9]-(*)(.jpg)' '$1 $[i++]$2'

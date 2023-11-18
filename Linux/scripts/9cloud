@@ -1,0 +1,2 @@
+#!/usr/bin/zsh
+cat /mnt/nvme1/Projects/General/9cloud.js | wl-copy

@@ -1,0 +1,26 @@
+#!/usr/bin/zsh
+
+for file in *; do
+    case "$file" in
+        *.jpg)
+            continue
+            ;;
+        *.mp4)
+            # mv $file trash:/
+            command rm "$file"
+            continue
+            ;;
+        *.gif)
+            # mv $file trash:/
+            command rm "$file"
+            continue
+            ;;
+        *.*)
+            echo "Handling file: $file"
+            mogrify -format jpg "$file"
+            command rm "$file"
+            ;;
+    esac
+done
+
+mogrify -strip ./*.jpg

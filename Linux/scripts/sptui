@@ -1,0 +1,9 @@
+#!/usr/bin/zsh
+
+if ! pgrep -x  "spotifyd" > /dev/null; then
+    spotifyd
+fi
+
+spt
+
+killall "spotifyd"
