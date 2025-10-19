@@ -1,7 +1,0 @@
-#!/usr/bin/zsh
-
-if [ $(pgrep "nm-connection-e") -gt 0 ]; then
-    killall nm-connection-editor
-else
-    nm-connection-editor
-fi

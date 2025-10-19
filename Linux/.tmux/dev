@@ -1,9 +1,0 @@
-# Dev layout
-
-selectp -t 0    # select the first pane and clear it
-splitw -h -p 40 # split it 60-40 horizontally
-
-selectp -t 1    # select the second pane and clear it
-splitw -v -p 40 # split it 60-40 vertically
-
-selectp -t 0    # go back to the first pane

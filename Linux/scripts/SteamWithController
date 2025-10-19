@@ -1,3 +1,0 @@
-#!/usr/bin/zsh
-
-gamescope -e -f -W 1920 -w 1920 -H 1080 -h 1080 -U -- steam
